@@ -4,5 +4,6 @@ A semi-cohesive collection of code snippets created with technologies I have com
 # Technologies
 1. Github
 2. GNU GPL License
-3. Oracle VM VirtualBox
-4. Oracle Linux 9.1
+3. README
+4. Oracle VM VirtualBox
+5. Oracle Linux 9.1
