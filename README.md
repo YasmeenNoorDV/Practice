@@ -1,6 +1,9 @@
 # Meque
 A semi-cohesive collection of code snippets created with technologies I have come across thus far, mainly used as practice.
 
+# App Access URL
+You can find the latest deployed release here: [Meque](https://meque.herokuapp.com/).
+
 # Technologies
 1. Github
 2. GNU GPL License v3.0
@@ -11,7 +14,7 @@ A semi-cohesive collection of code snippets created with technologies I have com
 7. nano
 8. Python3; pip; Python virtual environments
 9. makefile
-10. Flask
+10. Flask framework
 11. HTML5
 12. CSS3
 13. Trello kanban board
