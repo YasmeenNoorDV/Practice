@@ -2,7 +2,7 @@
 A semi-cohesive collection of code snippets created with technologies I have come across thus far, mainly used as practice.
 
 # App Access URL
-You can find the latest deployed release through [Heroku](https://meque.herokuapp.com/) or [PythonAnywhere](http://yasmeennoordv.pythonanywhere.com/).
+You can find the latest deployed release through [Heroku](https://meque.herokuapp.com/) (currently deactivated as it seems to cost money to keep up) or [PythonAnywhere](http://yasmeennoordv.pythonanywhere.com/).
 
 # Technologies
 1. Github
