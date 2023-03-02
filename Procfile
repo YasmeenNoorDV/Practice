@@ -1,1 +1,1 @@
-web: gunicorn meque:app
+web: gunicorn app.meque:app
