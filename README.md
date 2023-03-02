@@ -8,3 +8,8 @@ A semi-cohesive collection of code snippets created with technologies I have com
 4. Oracle VM VirtualBox
 5. Oracle Linux 9.1
 6. git
+7. nano
+8. Python3; pip; Python virtual environments
+9. makefile
+10. Flask
+11. HTML5
