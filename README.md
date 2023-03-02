@@ -13,3 +13,5 @@ A semi-cohesive collection of code snippets created with technologies I have com
 9. makefile
 10. Flask
 11. HTML5
+12. CSS3
+13. Trello kanban board
