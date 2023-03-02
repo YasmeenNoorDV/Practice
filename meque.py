@@ -20,17 +20,16 @@ app = Flask(__name__)
 def home():
 	return render_template('home.html')
 
-#Monitor a webhook to allow PythonAnywhere to automatically deploy new commits
+#Monitor a webhook to allow PythonAnywhere to automatically deploy new push requests
 @app.route('/webhook', methods=['POST'])
 def webhook():
 	if request.method == 'POST':
-		repo = git.Repo.('./meque')
-		meque = repo.remotes.meque
-		repo.create_head('main',  meque.refs.main).set_tracking_branch(meque.refs.main).checkout()
+		repo = git.Repo.('Meque')
+		meque = repo.remotes.Meque
 		meque.pull()
-		return '', 200
+		return 'Successfully hooked', 200
 	else:
-		return '', 400
+		return 'Failed to hook', 400
 
 #Basic python app run
 if __name__ == '__main__':
