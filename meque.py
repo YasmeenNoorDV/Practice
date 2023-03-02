@@ -3,9 +3,8 @@
 # Date: 2 March 2023
 
 #Imports
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 #import flask_login
-import git
 
 #Initialize app
 app = Flask(__name__)
@@ -19,16 +18,6 @@ app = Flask(__name__)
 @app.route("/")
 def home():
 	return render_template('home.html')
-
-#Monitor a webhook to allow PythonAnywhere to automatically deploy new push requests
-@app.route('/webhook', methods=['POST'])
-def webhook():
-	if request.method == 'POST':
-		repo = git.Git('https://github.com/YasmeenNoorDV/Meque.git')
-		repo.pull('Meque','main')
-		return 'Successfully hooked', 200
-	else:
-		return 'Failed to hook', 400
 
 #Basic python app run
 if __name__ == '__main__':
