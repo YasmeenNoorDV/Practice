@@ -24,9 +24,8 @@ def home():
 @app.route('/webhook', methods=['POST'])
 def webhook():
 	if request.method == 'POST':
-		repo = git.Repo.('/home/YasmeenNoorDV/Meque')
-		meque = repo.remotes.meque
-		meque.pull()
+		repo = git.Git('Meque')
+		repo.pull('meque','main')
 		return 'Successfully hooked', 200
 	else:
 		return 'Failed to hook', 400
