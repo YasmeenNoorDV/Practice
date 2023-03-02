@@ -1,0 +1,5 @@
+#Python virtual environment resources
+my_env
+
+#Python binary files
+__pycache__
