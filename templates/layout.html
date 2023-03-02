@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8" />
 		<title>Meque</title>
 		<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" />
 	</head>
 	<body>
-		<div class="header">
-
+		<div id="header">
+		Meque
 		</div>
-		<div class="content">
+		<div id="content">
 		{% block content %}
 		{% endblock %}
 		</div>
-		<div class="footer">
-
+		<div id="footer">
+		About | Contact
 		</div>
 	</body>
 </html>
