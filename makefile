@@ -10,7 +10,8 @@ install_res:
 
 # Access the command to activate the virtual environment
 env_act:
-	echo 'source my_env/bin/activate'
+	@echo 'Please run the following command:';
+	@echo 'source my_env/bin/activate'
 
 # Install needed Python libraries
 install_lib:
@@ -26,4 +27,5 @@ clean:
 
 # Access the command to deactivate the virtual environment
 env_deact:
-	echo 'deactivate'
+	@echo 'Please run the following command:';
+	@echo 'deactivate'

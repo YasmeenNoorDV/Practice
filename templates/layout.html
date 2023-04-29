@@ -11,14 +11,14 @@
 	</head>
 	<body>
 		<div id="header">
-		Meque
+		<a href="{{url_for('home')}}">Meque</a>
 		</div>
 		<div id="content">
 		{% block content %}
 		{% endblock %}
 		</div>
 		<div id="footer">
-		About | Contact
+		<a href="{{url_for('about')}}">About</a> | <a href="{{url_for('contact')}}">Contact</a>
 		</div>
 	</body>
 </html>

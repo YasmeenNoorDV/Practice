@@ -8,7 +8,15 @@ body{
 }
 
 h1{
-	font-family: courier, monospace;
+	font-family: Georgia, monospace;
+}
+
+p{
+	font-family: Georgia, serif;
+}
+
+a{
+	color: #FFFFFF;
 }
 
 #header{
