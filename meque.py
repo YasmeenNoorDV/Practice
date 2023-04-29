@@ -4,15 +4,9 @@
 
 # Imports
 from flask import Flask, render_template
-#import flask_login
 
 # Initialize app
 app = Flask(__name__)
-#app.secret_key = 'science rift under'
-
-# User session setup
-#login_manager = flask_login.LoginManager()
-#login_manager.init_app(app)
 
 # Home page
 @app.route("/")
