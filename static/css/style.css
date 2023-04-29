@@ -1,9 +1,14 @@
+/* Styling used for all HTML pages of Meque */
+/* Created by: YasmeenNoorDV */
+/* Creation date: 2 March 2023 */
+
 body{
 	background-color: #11224D;
 	color: #F5F5F5;
 }
 
 h1{
+	font-family: courier, monospace;
 }
 
 #header{

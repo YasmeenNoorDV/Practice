@@ -1,6 +1,12 @@
 # Meque
 A semi-cohesive collection of code snippets created with technologies I have come across thus far, mainly used as practice.
 
+# Created By
+GitHub user YasmeenNoorDV.
+
+# Creation Date
+1 March 2023.
+
 # App Access URL
 You can find the latest deployed release through [Heroku](https://meque.herokuapp.com/) (currently deactivated as it seems to cost money to keep up) or [PythonAnywhere](http://yasmeennoordv.pythonanywhere.com/).
 
