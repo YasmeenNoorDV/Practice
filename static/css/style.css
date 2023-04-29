@@ -3,43 +3,53 @@
 /* Creation date: 2 March 2023 */
 
 body{
-	background-color: #11224D;
-	color: #F5F5F5;
+	background-color: #146C94;
+	color: #F6F1F1;
+	font-size: 20px;
+	text-align: center;
 }
 
 h1{
-	font-family: Georgia, monospace;
-}
-
-p{
 	font-family: Georgia, serif;
 }
 
+p{
+	font-family: Georgia, monospace;
+}
+
 a{
-	color: #FFFFFF;
+	color: #19A7CE;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	color: #F6F1F1;
+	text-decoration: underline;
+}
+a:active{
+	background-color: #AFD3E2;
+	text-decoration: none;
 }
 
 #header{
-	background-color: #2C599D;
-	text-align: center;
-	padding: 3px;
-	margin-bottom: 2px;
+	background-color: #AFD3E2;
 	width: 100%;
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	border-radius: 0px 0px 25px 25px;
 }
 
 #content{
-	text-align: center;
-	padding: 3px;
+	margin-top: 30px;
 	width: 100%;
 }
 
 #footer{
-	text-align: center;
-	padding: 3px;
-	margin-top: 2px;
 	width: 100%;
 	position: absolute;
 	bottom: 0px;
