@@ -5,24 +5,40 @@
 body{
 	background-color: #11224D;
 	color: #F5F5F5;
+	font-size: 20px;
 }
 
 h1{
-	font-family: Georgia, monospace;
-}
-
-p{
 	font-family: Georgia, serif;
 }
 
-a{
+p{
+	font-family: Georgia, monospace;
+}
+
+a:link{
 	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited{
+	color: #e5e5e5;
+	text-decoration: none;
+}
+a:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a:active{
+	color: #e5e5e5;
+	background-color: #2C599D;
+	text-decoration: none;
 }
 
 #header{
 	background-color: #2C599D;
 	text-align: center;
-	padding: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	margin-bottom: 2px;
 	width: 100%;
 	position: absolute;
@@ -32,13 +48,15 @@ a{
 
 #content{
 	text-align: center;
-	padding: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	width: 100%;
 }
 
 #footer{
 	text-align: center;
-	padding: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	margin-top: 2px;
 	width: 100%;
 	position: absolute;
