@@ -1,4 +1,4 @@
-# A basic Flask application for the Meque project
+# A basic Flask application for the Practice project
 # Created by: YasmeenNoorDV
 # Creation date: 2 March 2023
 
