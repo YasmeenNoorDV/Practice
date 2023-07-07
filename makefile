@@ -1,5 +1,5 @@
 # A makefile to create a python virtual environment, used for
-#opening a Meque Flask application
+#opening a Practice Flask application
 # Created by: YasmeenNoorDV
 # Creation date: 2 March 2023
 
@@ -17,9 +17,9 @@ env_act:
 install_lib:
 	pip3 install -r requirements.txt
 
-# Run the Meque Flask application
+# Run the Practice Flask application
 run:
-	flask --app meque run
+	flask --app practice run
 
 # Remove binary files
 clean:
