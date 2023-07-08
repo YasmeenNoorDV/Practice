@@ -1,5 +1,5 @@
 # Practice
-A semi-cohesive collection of code snippets created with technologies I have come across thus far, mainly used as practice.
+A starting point for a Flask app, mainly used as practice.
 
 # Created By
 GitHub user YasmeenNoorDV.
